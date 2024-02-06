@@ -80,7 +80,7 @@
           >
             Blogs
           </p>
-          <ul class="lg:flex lg:items-center grid-cols-2 gap-[31px]">
+          <ul class="flex lg:items-center justify-center flex-wrap gap-[31px]">
             <div class="flex items-center gap-[21px]">
               <li
                 class="rounded-full border cursor-pointer border-[#294F74] bg-[#EDF2F5] py-[10px] px-[16px] lg:py-[13px] lg:px-[21px] text-[#294F74] font-[500] text-[12px] lg:text-[20px] hover:text-white hover:bg-[#22405C] duration-700"
@@ -108,14 +108,16 @@
           </ul>
         </div>
         <div
-          class="border-[14px] rounded-[32px] overflow-clip border-white min-h-[590px] lg:flex text-pink-400 lg:text-purple-900"
+          class="border-[14px] rounded-[32px] overflow-clip border-white h-[590px] lg:flex text-pink-400 lg:text-purple-900"
         >
           <div
-            class="lg:w-[50%] bg-gradient-to-t from-[#F4F4F4] to-white flex items-center justify-center"
+            class="lg:w-[50%] lg:h-auto h-[50%] bg-gradient-to-t from-[#F4F4F4] to-white flex items-center justify-center"
           >
             <img class="" src="/Frame 2.png" alt="" />
           </div>
-          <div class="bg-[#F8F8F8] p-20 flex flex-col lg:w-[50%] gap-6">
+          <div
+            class="bg-[#F8F8F8] lg:h-auto p-20 h-[50%] flex flex-col lg:w-[50%] gap-6"
+          >
             <div class="flex gap-[21px] items-center">
               <p class="text-[#294F74] lg:text-[20px] font-[500]">
                 FREELANCE101
@@ -458,7 +460,9 @@
         <div
           class="h-[664px] lg:flex lg:justify-center items-center p-8 bg-[#2F5478] rounded-[24px]"
         >
-          <div class="lg:flex lg:justify-between items-center lg:w-[85%]">
+          <div
+            class="lg:flex-row flex flex-col lg:justify-between gap-6 items-center lg:w-[85%]"
+          >
             <!-- LEFT -->
             <div class="flex flex-col gap-[20px]">
               <h2 class="text-white text-[40px] lg:text-8xl">
@@ -477,9 +481,11 @@
             <!-- !b RIGHT -->
 
             <div
-              class="flex items-center justify-center border-[2px] border-white rounded-full w-[403px] h-[404px]"
+              class="flex items-center mx-auto justify-center border-[2px] border-white rounded-full w-[80%] aspect-square lg:w-96 lg:h-96"
             >
-              <p class="text-white text-center text-[32px] font-[500]">
+              <p
+                class="text-white text-center text-[24px] lg:text-[32px] font-[500]"
+              >
                 Lets Work <br />
                 together
               </p>
